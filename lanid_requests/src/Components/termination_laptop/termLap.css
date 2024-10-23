@@ -1,0 +1,27 @@
+.termLap-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  margin-left: 200px;
+}
+
+.termLap-item {
+  /* margin-left: 100px; */
+  display: flex;
+  flex-direction: column;
+  /* width: 50%;
+  margin: auto; */
+}
+
+/* .termLap-item label {
+  text-align: left;
+  color: black;
+} */
+
+.termLap-item input {
+  width: 50%;
+  font-size: 14px;
+  padding: 8px 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
